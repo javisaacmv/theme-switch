@@ -1,5 +1,5 @@
 import { IconSunHigh } from "@tabler/icons-react";
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { ThemeContext } from "../App";
 
 const ToggleThemeButton = () => {
