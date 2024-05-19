@@ -10,3 +10,5 @@
 - Ensure that the application styles change according to the selected theme and use TypeScript to type the theme-related data correctly. ✅
 - Optional: Optimize the component's performance using useMemo, React.memo, or useCallback to avoid unnecessary calculations or extra renderings. ✅
 - Share the public repository or ZIP file once you have completed it. ✅
+
+You can see how this works here: https://jm-theme-switch.netlify.app/
