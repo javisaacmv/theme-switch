@@ -1,30 +1,12 @@
-# React + TypeScript + Vite
+# Theme switch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Create a functional component named DataFetcher that displays data obtained from an API. (https://jsonplaceholder.typicode.com/posts) ✅
+- Use the useState hook to store the data obtained from the API, ensuring correct typing of the data using TypeScript. ✅
+- Use the useEffect hook to make the API call when the component mounts. ✅
+- Display the data in the user interface. ✅
+- Implement a dark theme for the application using the Context API and the useState and useContext hooks. ✅
+- Create a context to handle the theme state. ✅
+- Provide a theme switcher in the application that updates the theme state using the useState and useContext hooks. ✅
+- Ensure that the application styles change according to the selected theme and use TypeScript to type the theme-related data correctly. ✅
+- Optional: Optimize the component's performance using useMemo, React.memo, or useCallback to avoid unnecessary calculations or extra renderings. ✅
+- Share the public repository or ZIP file once you have completed it. ✅
